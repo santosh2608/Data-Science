@@ -3,7 +3,7 @@ ETL Project
 What is ETL?
 ETL is defined as a process that extracts the data from different RDBMS source systems, then transforms the data (like applying calculations, concatenations, etc.) and finally loads the data into the Data Warehouse system. ETL full-form is Extract, Transform and Load.
 
-![ETL.png](Images/ETL.png)
+
 
 
 
@@ -25,21 +25,21 @@ The data also includes a category_id field, which varies between regions. To ret
 
 Extract:
     Extract flat files from Kaggle.com
-    •	US Video csv
-    •	Canada Video csv
-    •	US Video Category json
+    	US Video csv
+    	Canada Video csv
+    	US Video Category json
 
 Transform:
-    •	Joining Datasets:
-        o	Add Country column to differentiate data between US and Canada
-        o	Merge US and Canada video datasets
+    	Joining Datasets:
+        	Add Country column to differentiate data between US and Canada
+        	Merge US and Canada video datasets
 
-    •	Data Cleaning:
-        o	Filter error videos from merged dataset
-        o	Create new dataset with the specific columns
+    	Data Cleaning:
+        	Filter error videos from merged dataset
+        	Create new dataset with the specific columns
 Load:
-    •	Create “youtube_db” database on PostgreSQL database
-    •	Create “youtube_data” and “youtube_category” tables in “youtube_db” database
-        o	Define table column and datatype
-    •	Load data from dataframe to PostgreSQL database
+    	Create “youtube_db” database on PostgreSQL database
+    	Create “youtube_data” and “youtube_category” tables in “youtube_db” database
+        	Define table column and datatype
+    	Load data from dataframe to PostgreSQL database
 
