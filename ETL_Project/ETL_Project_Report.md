@@ -3,7 +3,7 @@ ETL Project
 What is ETL?
 ETL is defined as a process that extracts the data from different RDBMS source systems, then transforms the data (like applying calculations, concatenations, etc.) and finally loads the data into the Data Warehouse system. ETL full-form is Extract, Transform and Load.
 
-
+![ETL.png](Images/ETL.png)
 
 
 
