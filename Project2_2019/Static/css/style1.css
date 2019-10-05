@@ -1,0 +1,72 @@
+/* remove default margin and padding from body
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* set map, body, and html to 100% of the screen size */
+/* #map,
+body,
+html {
+  height: 100%;
+} */ */
+
+<style>
+        h1 {
+            /* Put a 15-pixel margin at the bottom of the heading. */
+            margin-bottom: 15px;
+            /* Change the size of your font to 60 pixels high. */
+            font-size: 60px;
+            /* This will color the heading font white. */
+            color: white;
+            /* Align the text to the center of its enclosing element (e.g. div). */
+            text-align: center;
+            /* Underline the text. */
+            text-decoration: underline;
+            /* The background of the heading element will now be black. */
+            background-color: grey;
+        }
+
+        body {
+            background-image: url("image3.jpeg");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-attachment: fixed;
+        }
+
+        /* All p tags */
+        p {
+            text-align: center;
+            font-size: 16px;
+            /* Bold the text. */
+            font-weight: bold;
+
+        }
+
+        img {
+            /* 
+      Center a block element in the middle of its enclosing tag.
+      When you use the "auto" rule on both left and right margins, 
+      your browser will do the math necessary to center a block element.
+      */
+            margin-left: auto;
+            margin-right: auto;
+            /* Block display (more on this later) */
+            display: block;
+
+        }
+
+        .map {
+            height: 50%;
+            width: 100%;
+        }
+
+        .chart {
+            width: 90%;
+            height: 40%;
+        }
+    </style>
+
+            -->
+
